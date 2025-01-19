@@ -1,3 +1,14 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap');
+
 main{
-    background-color: blue
+    background-color: lightcyan;
+}
+
+body {
+    font-family: Inter, sans-serif;
+}
+
+h1 {
+    font-family: Macondo, sans-serif;
 }
