@@ -102,12 +102,33 @@ h2 {
     border: none;
 }
 
+/* Events */
+
+.events-button {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.custom-div-filled {
+    background-color: var(--highlight-color);
+    color: white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin: auto;
+}
+
+#events-table {
+    font-size: 75%;
+}
+
 /* Footer / contact */
 
 #contact {
     background-color: var(--primary-color);
     color: white;
     padding-bottom: 3rem;
+    padding-top: 3rem;
 }
 
 #contact h2 {
@@ -151,6 +172,13 @@ h2 {
 } */
 
 /* Media queries */
+
+/* Small screens (mobile phones, 576px and up) */
+@media screen and (min-width:576px) {
+    #events-table {
+        font-size: 100%;
+    }
+}
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
