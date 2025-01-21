@@ -43,8 +43,11 @@ h2 {
 }
 
 .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 }
 
 /* Buttons */
@@ -156,6 +159,8 @@ h2 {
 #contact .social-links i {
     color: var(--highlight-color);
     font-size: 1.9rem;
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
 }
 
@@ -166,18 +171,6 @@ h2 {
 #contact .table-dark * {
     background-color: transparent;
 }
-
-/* grid visualisation CSS for testing */
-
-/* .container,
-.row {
-    border: 2px solid black;
-}
-
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
-} */
 
 /* Media queries */
 
